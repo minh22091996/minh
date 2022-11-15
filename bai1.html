@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Leap year</title>
+  </head>
+  <body>
+    <script>
+       year = parseInt(prompt("nhap nam"))
+      if (
+        (year % 4 == 0 && year % 100 != 0) ||
+        (year % 100 == 0 && year % 400 == 0)
+      ) {
+        alert(year + "la nam nhuan")
+      } else {
+        alert(year + "khong la nam nhuan")
+      }
+    </script>
+  </body>
+</html>
